@@ -1,3 +1,6 @@
+import {KEY} from './key.js'
+console.log(KEY)
+
 const text = document.querySelector('input');
 const button = document.querySelector('button');
 const error = document.querySelector('.error');
@@ -18,7 +21,7 @@ async function getCovid(country){
 const covidJson = await fetch(`https://covid-19-data.p.rapidapi.com/country?name=${country}&format=json`, {
 	"method": "GET",
 	"headers": {
-		"x-rapidapi-key": "86600206bfmsh9b8203dc7672c8cp1055d6jsn3def34dacfbe",
+		"x-rapidapi-key": KEY,
 		"x-rapidapi-host": "covid-19-data.p.rapidapi.com"
 	}
 })
