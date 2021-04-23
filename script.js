@@ -1,5 +1,4 @@
 import {KEY} from './key.js'
-console.log(KEY)
 
 const text = document.querySelector('input');
 const button = document.querySelector('button');
