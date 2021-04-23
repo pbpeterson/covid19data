@@ -1,6 +1,6 @@
 import {KEY} from './key.js'
 
-console.log(key)
+console.log('oi')
 
 const text = document.querySelector('input');
 const button = document.querySelector('button');
