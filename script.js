@@ -1,5 +1,7 @@
 import {KEY} from './key.js'
 
+console.log(key)
+
 const text = document.querySelector('input');
 const button = document.querySelector('button');
 const error = document.querySelector('.error');
